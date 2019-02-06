@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>If/Else in JS</title>
+</head>
+<body>
+    <script>
+        var eatSteak = prompt('Do you eat steak?');        
+
+        if (eatSteak === "yes"){
+            var year = prompt("How old are you?");
+            if(year  > 21){
+                alert("Here’s a Steak Sandwich!");
+                document.write("Here’s a Steak Sandwich!");
+            }
+            else{
+                alert("No Stake for you!");
+            }
+        }
+        else{
+            alert("Here’s a Tofu Stir-Fry!");
+        }
+    </script>
+</body>
+</html>
